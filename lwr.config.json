@@ -1,0 +1,34 @@
+{
+    "lwc": {
+        "modules": [
+            {
+                "dir": "$rootDir/src/client/modules"
+            }
+        ]
+    },
+    "serverType": "express",
+    "assets": [
+        {
+            "alias": "index",
+            "dir": "$rootDir/src/client",
+            "urlPath": "/assets"
+        }
+    ],
+    "routes": [
+        {
+            "id": "home",
+            "path": "/",
+            "rootComponent": "pages/home"
+        },
+        {
+            "id": "ourStory",
+            "path": "/our-story",
+            "rootComponent": "pages/ourStory"
+        },
+        {
+            "id": "contactUs",
+            "path": "/contact-us",
+            "rootComponent": "pages/contactUs"
+        }
+    ]
+}

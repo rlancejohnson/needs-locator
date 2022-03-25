@@ -1,0 +1,32 @@
+<template>
+    <div class="container">
+        <div class="layout main-layout">
+            <div class="layout-item layout logo-section">
+                <div>
+                    <img
+                        src="https://www.wlac.edu/WLAC/media/images/basicneeds/BasicNeedsTop.jpg"
+                        alt="logo"
+                        class="layout-item logo"
+                    />
+                </div>
+                <div class="layout-item title">Needs Tracker</div>
+            </div>
+            <div class="layout-item layout nav-items-section">
+                <template
+                    for:each={navItems}
+                    for:item="navItem"
+                >
+                    <div
+                        key={navItem.id}
+                        class="layout-item"
+                    >
+                        <cmps-nav-item
+                            label={navItem.label}
+                            route={navItem.route}
+                        ></cmps-nav-item>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+</template>

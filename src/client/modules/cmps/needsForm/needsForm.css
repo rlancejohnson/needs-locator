@@ -1,0 +1,15 @@
+.layout {
+    display: flex;
+    justify-content: center;
+}
+
+.start-btn {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4d8ac0;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 30px;
+}

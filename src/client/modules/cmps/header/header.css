@@ -1,0 +1,38 @@
+.layout {
+    display: flex;
+    align-items: center;
+}
+
+.main-layout {
+    justify-content: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+.layout-item {
+    margin: 10px 15px;
+}
+
+.logo-section {
+    flex-grow: 5;
+    justify-content: flex-start;
+    margin: 0% 3%;
+}
+
+.nav-items-section {
+    flex-grow: 7;
+    justify-content: flex-end;
+    margin: 0% 3%;
+}
+
+.logo {
+    width: 120px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 25px;
+}
