@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "clean": "rm -rf __lwr_cache__",
-    "dev": "node src/server/server.js",
+    "dev": "lwr serve --mode dev",
     "start": "lwr serve --mode prod",
     "start:compat": "lwr serve --mode compat",
     "start:prod-compat": "lwr serve --mode prod-compat"
